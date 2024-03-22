@@ -84,3 +84,38 @@
 // let num = [45, 12, 5, 59];
 // let a = num.copyWithin(1,0,2);
 // console.log(num);  
+
+// let marks = [55, 66, 88, 98, 55, 78];
+// let i;
+// for (i = 0; i < marks.length; i++) {
+//   console.log(marks[i]);
+
+// }
+
+
+// let a = 20 , b = 30 , c;
+// c = a;
+// a = b;
+// b = c;
+// console.log(a,b);
+// console.log(str.repeat(i))};
+
+
+
+// let length = 5;
+// for (let i = 1; i <= length ; i++){
+//   let space = " ";
+//   let app = " *";
+ 
+// console.log(space.repeat( length - i),app.repeat(i));
+// }
+
+
+let name = " bhavik";
+let surname = " dhameliya";
+z = name + surname ;
+console.log(z);
+
+
+
+

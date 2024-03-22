@@ -31,7 +31,7 @@ body{
 .clock span {
     position : absolute;
     transform: rotate(calc(30deg * var(--i)));
-    inset: 12px;
+    inset: 15px;
     text-align: center;
 }
 .clock span b{
