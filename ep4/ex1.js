@@ -102,19 +102,19 @@
 
 
 
-// let length = 5;
-// for (let i = 1; i <= length ; i++){
-//   let space = " ";
-//   let app = " *";
+let length = 5;
+for (let i = 1; i <= length ; i++){
+  let space = " ";
+  let app = "* ";
  
-// console.log(space.repeat( length - i),app.repeat(i));
-// }
+console.log(space.repeat( length - i),app.repeat(i));
+}
 
 
-let name = " bhavik";
-let surname = " dhameliya";
-z = name + surname ;
-console.log(z);
+// let name = " bhavik";
+// let surname = " dhameliya";
+// z = name + surname ;
+// console.log(z);
 
 
 

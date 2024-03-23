@@ -68,7 +68,7 @@
 //  }
 //  console.log("congretulation");
 
-// 2. string ============================================================
+// 2. string ========================================================
 // 1. toUpperCase
 // let str = "apnacollage";
 // a = str.toUpperCase();
