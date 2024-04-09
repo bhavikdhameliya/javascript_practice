@@ -145,24 +145,25 @@
 // })
 
 
-
-// function tempfun(){
+// function tempfun() {
 //     return new Promise((resolve, reject) => {
-//         let count = true ;
-//         if(count){
-//             resolve("sucess");
-//         }else{
-//           reject("error")
+//         let count = 15;
+//         if (count%5 === 0) {
+
+//             resolve("yes is multipel");
+//         } else {
+
+//             reject("not multipel")
 //         }
 //     })
 // }
 // let a = tempfun();
 // console.log(a);
-// a.then((result)=>{
-//  console.log(result);
-// }).catch((error)=>{
+// a.then((result) => {
+//     console.log(result);
+// }).catch((error) => {
 //     console.log(error);
-// }).finally(()=>{
+// }).finally(() => {
 //     console.log("the done ");
 // })
 
@@ -212,30 +213,50 @@
 //     console.log("the done");
 // })
 
-function tempFun(){
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-        let error = false
-        if(!error){
-            resolve({
-                username : " bhavik",
-                email : " bhavik@gmail.com"
-            })
-        }else{
-            reject("error")
-        }
-    }, 2000);
-  })   
-}
-let a = tempFun();
-console.log(a);
-a.then((result)=>{
-console.log(result);
-return result.email
-}).then((email)=>{
-console.log(email);
-}).catch((err)=>{
-console.log(err);
-}).finally(()=>{
-    console.log("the done ");
-})
+// function tempFun(){
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         let error = false
+//         if(!error){
+//             resolve({
+//                 username : " bhavik",
+//                 email : " bhavik@gmail.com"
+//             })
+//         }else{
+//             reject("error")
+//         }
+//     }, 2000);
+//   })   
+// }
+// let a = tempFun();
+// console.log(a);
+// a.then((result)=>{
+// console.log(result);
+// return result.email
+// }).then((email)=>{
+// console.log(email);
+// }).catch((err)=>{
+// console.log(err);
+// }).finally(()=>{
+//     console.log("the done ");
+// })
+
+// forment=====
+// function tempfun(){
+//     return new Promise((resolve, reject) => {
+//         if (condition) {
+//             resolve();
+//         } else {
+//             reject();
+//         }
+//     })
+// }
+// let = a = tempfun();
+// console.log(a);
+// a.then((result) => {
+//     console.log(result);
+// }).catch((err) => {
+//   console.log(err);  
+// }).finally(()=>{
+//     console.log("");
+// })
