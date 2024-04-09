@@ -7,6 +7,7 @@
 //     console.log("not vote");
 // }
 
+
 // let age = 6;
 // if(age < 18 ){
 //     console.log("vote");
@@ -14,12 +15,14 @@
 //     console.log("not vote");
 // }
 
+
 // let num = 8;
 // if(num%2 === 0){
 //     console.log("even");
 // }else{
 //     console.log("odd");
 // }
+
 
 // let age = 56 ;
 // if(age < 18){
@@ -30,12 +33,14 @@
 //     console.log("middle");
 // }
 
+
 // let num = 67;
 // if(num%5 === 0){
 //     console.log("multipel");
 // }else{
 //     console.log("not multipel");
 // }
+
 
 // let result = 99 ;
 // let grade;

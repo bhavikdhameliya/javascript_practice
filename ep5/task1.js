@@ -153,3 +153,18 @@
 //     });
 // console.log("arr =",arr, "sum=",sum , "factorical=",factorical);
  
+
+// let arr = [ 12 , 23, 45, 56, 78, 98]
+// for (const iterator in arr) {
+//     console.log(iterator);
+// }
+
+// let user = {
+//     name : "bhavik",
+//     age : 22,
+//     moNum : 9512288574 
+// }
+// for (const iterator in user) {
+//     console.log(iterator);
+//     console.log(user);
+// }
