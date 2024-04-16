@@ -13,7 +13,9 @@
 // })
 // console.log("end"); 
 
+
 // ============================================
+
 
 // new Promise(function(resolve ,reject){
 //    setTimeout(function()  {
@@ -28,8 +30,7 @@
 
 // function bhavik(){
 //     return new Promise((resolve, reject) => {
-
-//         resolve("task 1");
+    //         resolve("task 1");
 //     })
 // }let a = bhavik();
 // console.log(a);
@@ -242,6 +243,7 @@
 // })
 
 // forment=====
+
 // function tempfun(){
 //     return new Promise((resolve, reject) => {
 //         if (condition) {

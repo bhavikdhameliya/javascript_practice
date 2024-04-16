@@ -3,7 +3,6 @@
 //         this.name = name;
 //         this.age = age;
 //     }
-
 //     increaseAge (value) {
 //         this.age += value;
 //     }
@@ -16,14 +15,10 @@
 
 // const s1 = new Student("Bhavik", "22");
 // const s2 = new Student("Darshan", 24);
-
 // s1.increaseAge(3);
 // s2.increaseAge(5, 5);
-
 // console.log(s1)
 // console.log(s2)
-
-
 
 
 // const students = [{
@@ -33,12 +28,28 @@
 //     firstName: "Darshan",
 //     age: 24
 // }];
-
 // for (let index = 0; index < students.length; index++) {
 //     const student = students[index];
-    
-//     student.age = student.age+2;
+    //     student.age = student.age+2;
 // }
-
 // console.log(students)
 
+// ================================================new
+
+// class User {
+//     constructor(username , email , password){
+//         this.username = username;
+//         this.email = email;
+//         this.password = password
+//     }
+//     encryptpassword(){
+//         return `${this.password}abc`
+//     }
+//     changeUsername(){
+//         return `${this.username.toUpperCase()}`
+//     }
+
+// }
+// const chai = new User("chai","chai@gmail.com","123") 
+// console.log(chai.encryptpassword());
+// console.log(chai.changeUsername());
